@@ -5,8 +5,6 @@ import About from './components/About';
 import Services from './components/Services';
 import Contact from './components/Contact';
 
-import Test from './components/Test';
-
 function App() {
   const [message, setMessage] = useState('');
 
@@ -40,7 +38,6 @@ function App() {
         <About />
         <Services />
         <Contact />
-        <Test />
       </main>
 
       <h1>{message || 'Loading...'}</h1>
