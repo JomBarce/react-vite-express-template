@@ -1,12 +1,12 @@
-import dotenv from "dotenv";
-import { createServer } from "http";
-import app from "./restApi.ts";
-
+import dotenv from 'dotenv';
 dotenv.config();
+
+import { createServer } from "http";
+import app from "./app.js";
 
 const server = createServer(app);
 
-const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 9001;
+const PORT = Number(process.env.PORT) || 9001;
 
 server.listen(PORT, () => {
   console.log(`API started on http://localhost:${PORT}`);
