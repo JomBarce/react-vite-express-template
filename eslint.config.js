@@ -1,11 +1,11 @@
 // eslint.config.js
-import js from '@eslint/js'
-import globals from 'globals'
-import reactHooks from 'eslint-plugin-react-hooks'
-import reactRefresh from 'eslint-plugin-react-refresh'
-import typescriptPlugin from '@typescript-eslint/eslint-plugin'
-import parser from '@typescript-eslint/parser'
-import { defineFlatConfig, flatConfigsToRules } from 'eslint-define-config'
+import js from '@eslint/js';
+import globals from 'globals';
+import reactHooks from 'eslint-plugin-react-hooks';
+import reactRefresh from 'eslint-plugin-react-refresh';
+import typescriptPlugin from '@typescript-eslint/eslint-plugin';
+import parser from '@typescript-eslint/parser';
+import { defineFlatConfig, flatConfigsToRules } from 'eslint-define-config';
 
 export default defineFlatConfig([
   {
@@ -33,4 +33,4 @@ export default defineFlatConfig([
       ...reactRefresh.configs.vite.rules,
     },
   },
-])
+]);
