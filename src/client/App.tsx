@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import './styles/App.css'
+import { useState, useEffect } from 'react';
+import './styles/App.css';
 import Hero from './components/Hero';
 import About from './components/About';
 import Services from './components/Services';
@@ -40,10 +40,12 @@ function App() {
         <Contact />
       </main>
 
-      <h1>{message || 'Loading...'}</h1>
-      <h2>{import.meta.env.MODE}</h2>
+      <div className="server-message">
+        <h1>{message || 'Loading...'}</h1>
+        <h2>{import.meta.env.MODE}</h2>
+      </div>
     </>
   );
 }
 
-export default App
+export default App;
