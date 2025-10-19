@@ -3,29 +3,26 @@
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "module": "ESNext",  
-    "types": ["vite/client", "node"],  
-    "skipLibCheck": false,  
-    
+    "module": "ESNext",
+    "types": ["vite/client", "node"],
+    "skipLibCheck": false,
+
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,  
-    "verbatimModuleSyntax": true,  
-    "moduleDetection": "force",  
-    "noEmit": true,  
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
     "jsx": "react-jsx",
-    "outDir": "./dist",  
-    
+    "outDir": "./dist",
+
     /* Linting and strictness */
-    "strict": true,  
-    "noUnusedLocals": true,  
-    "noUnusedParameters": true,  
-    "erasableSyntaxOnly": true,  
-    "noFallthroughCasesInSwitch": true,  
-    "noUncheckedSideEffectImports": true  
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx"
-  ]
+  "include": ["src/client/**/*.ts", "src/client/**/*.tsx"]
 }

@@ -12,7 +12,5 @@
     "noEmit": false,
     "verbatimModuleSyntax": false
   },
-  "include": [
-    "src/server/**/*.ts"
-  ]
+  "include": ["src/server/**/*.ts"]
 }
