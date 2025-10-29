@@ -1,4 +1,4 @@
-# Vite React Express Template
+# React + Vite + Express + Typescript Template
 
 This Template helps you get started quickly with a modern TypeScript-based stack featuring:
 
