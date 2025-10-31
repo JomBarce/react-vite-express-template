@@ -1,0 +1,9 @@
+node_modules
+build
+*.min.js
+package-lock.json
+.DS_Store
+dist
+dist-ssr
+*.local
+.eslintcache
